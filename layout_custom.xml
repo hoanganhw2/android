@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <TableRow android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:weightSum="3">
+       <TextView android:layout_width="0sp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:textColor="@color/black"
+           android:text="Ngày thu :"/>
+       <TextView android:layout_width="0sp"
+           android:layout_height="wrap_content"
+           android:layout_weight="2"
+           android:id="@+id/txt_ngaythu"
+           android:textSize="20sp"
+           android:textColor="@color/red"
+            />
+
+   </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <TextView android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Tên khoản chi:"/>
+        <TextView android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/txt_tenkhoanchi"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            />
+
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <TextView android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Số tiền chi :"/>
+        <TextView android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/txt_tienchi"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            />
+
+    </TableRow>
+
+</LinearLayout>
