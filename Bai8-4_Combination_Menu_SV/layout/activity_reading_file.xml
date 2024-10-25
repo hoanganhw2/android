@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadingFileActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Nội dung đọc bộ nhớ trong" />
+
+    <TextView
+        android:id="@+id/tvInternal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="nội dung đọc được"
+        android:gravity="center_vertical"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Nội dung đọc thẻ nhớ" />
+
+    <TextView
+        android:id="@+id/tvExternal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="nội dung đọc được"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Đọc file" />
+</LinearLayout>

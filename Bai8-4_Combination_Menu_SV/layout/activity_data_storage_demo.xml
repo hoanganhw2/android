@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DataStorageDemoActivity">
+
+    <Button
+        android:id="@+id/btnDoc"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:textSize="28sp"
+        android:onClick="runReadActivity"
+        android:text="Đọc file" />
+
+    <Button
+        android:id="@+id/btnGhi"
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:onClick="runWriteActivity"
+        android:textSize="28sp"
+        android:text="Ghi file" />
+</LinearLayout>
